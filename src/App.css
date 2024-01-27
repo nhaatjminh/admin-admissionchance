@@ -14,5 +14,24 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  z-index: 999999;
+  z-index: 1;
+}
+
+.yoot-logo {
+  position: fixed;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #b1b1b1;
+  bottom: 15px;
+  right: 33px;
+  z-index: 2;
+  height: 30px;
+  padding: 0px 9px;
+  user-select: none;
+}
+
+.yoot-logo img {
+  height: 30px;
+  width: auto;
+  user-select: none;
 }
